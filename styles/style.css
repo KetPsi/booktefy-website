@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,400&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@700&family=Montserrat:ital,wght@0,400;0,700;1,400&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 10px;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: #313131;
+}
+
+h1 {
+    font-weight: 400;
+}
+
+.main-container {
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    border-top: 5px solid #be501e;
+}
+
+
+/* navigation bar */
+header nav {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 12px;
+    border-bottom: #31313127 1px solid;
+    margin-bottom: 25px;
+}
+
+.nav-list {
+    display: flex;
+    gap: 12px;
+    list-style: none;
+}
+
+.nav-item:link,
+.nav-item:visited {
+    color: #313131;
+    text-decoration: none;
+}
+
+.nav-item:hover,
+.nav-item:active {
+    color: #313131;
+    font-weight: bold;
+}
+
+
+/* intro */
+.intro h3 {
+    font-size: 2em;
+    color: #be501e;
+    font-family: 'Lora', serif;
+    margin-bottom: 50px;
+}
+
+.intro-books-row {
+    text-align: center;
+}
+
+.intro-book {
+    width: 10%;
+    margin-right: 15px;
+}
+/* .intro-book:last-child {
+    margin-right: 0;
+} */
+.intro-book:hover {
+    transform: scale(1.2);
+}
+
+
+/* Book details */
+.book-details-pic {
+    width: 20%
+}
+
+.primary-btn {
+    width: 8%;
+    margin-right: 20px;
+    border: none;
+    color: white;
+    font-weight: bold;
+    background-color: #be501e;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+.primary-btn:hover {
+    cursor: pointer;
+    color: #be501e;
+    background-color: white;
+    border: #be501e 1px solid;
+}
+
+.book-description {
+    width: 40%;
+    margin-bottom: 40px;
+}
+
